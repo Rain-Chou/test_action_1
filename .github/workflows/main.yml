@@ -5,3 +5,9 @@ on:
 job: 
     build: 
         name: run py1
+        runs-on: ubuntu-latest #跑的環境
+        steps:
+        - uses: action/checkout@v2
+        - name: Run python
+          run:
+            python3 test.py
