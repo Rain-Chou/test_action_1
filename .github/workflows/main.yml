@@ -1,0 +1,7 @@
+name: Run Python
+on:
+    push: 
+
+job: 
+    build: 
+        name: run py1
